@@ -1,5 +1,3 @@
-puts "slim init!"
-
 # Author: Stephen Sykes
 begin
   unless /mswin/ =~ RUBY_PLATFORM || RUBY_VERSION >= "1.9" || defined?(RUBY_ENGINE) && RUBY_ENGINE != "ruby"
